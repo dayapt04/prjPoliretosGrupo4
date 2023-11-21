@@ -56,5 +56,7 @@ public class App {
         System.out.println("");
         oSerieCuadNum.showSerieDoWhile(5);
 
+        scanner.close();
+
     }
 }
