@@ -27,6 +27,7 @@ public class App {
         serieS1.showSerieWhile(m);
         System.out.println("Usando DoWhile");
         serieS1.showSerieDoWhile(m);
+        
    
         // Generar serie S2
         System.out.println("---------------------------------------------------------------------------------------- ");
@@ -55,6 +56,23 @@ public class App {
         oSerieCuadNum.showSerieWhile(5);
         System.out.println("");
         oSerieCuadNum.showSerieDoWhile(5);
+
+        SerieS7 oSerieS7 = new SerieS7();
+        System.out.println("Usando For: ");
+        oSerieS7.showSerieFor(m);
+        System.out.println("Usando While: ");
+        oSerieS7.showSerieWhile(m);
+        System.out.println("Usando DoWhile: ");
+        oSerieS7.showSerieWhile(m);
+
+        SerieS8 oSerieS8 = new SerieS8();
+        System.out.println("Usando For: ");
+        oSerieS8.showSerieFor(m);
+        System.out.println("Usando While: ");
+        oSerieS8.showSerieWhile(m);
+        System.out.println("Usando DoWhile: ");
+        oSerieS8.showSerieWhile(m);
+
 
         scanner.close();
 
