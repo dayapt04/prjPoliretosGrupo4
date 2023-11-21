@@ -1,8 +1,8 @@
-public class Serie4 {
+public class SerieS4 {
     // S4: 0/2 1/4 1/6 2/8 3/10 5/12 8/14 13/16 ...
     public int nroTerminos;
 
-    public Serie4(int nroTerminos) {
+    public SerieS4(int nroTerminos) {
         this.nroTerminos = nroTerminos;
     }
 
@@ -40,7 +40,7 @@ public class Serie4 {
         System.out.println();
     }
 
-    public void PoliCodeCraftersdoWhileS4() {
+    public void PoliCodeCraftersDoWhileS4() {
         int i = 0;
         int denominador = 2;
         int numerador = 0;
@@ -53,5 +53,6 @@ public class Serie4 {
             denominador += 2;
             i++;
         } while (i < this.nroTerminos);
+        System.out.println();
     }
 }
