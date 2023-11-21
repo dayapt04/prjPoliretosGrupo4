@@ -1,46 +1,46 @@
 public class SerieS8 {
 
-    public SerieS8(){
-        System.out.println("\nSe ejecuta el constructor de la clase 08");
+    public SerieS8() {
+        System.out.println("\nSerie 8: ");
     }
 
-    public void showSerieFor(int pTermino){
+    public void PoliCodeCraftersForS8(int pTermino) {
 
-        int Serie=3;
-        
-        for(int i=1;i<=pTermino;i++){
+        int Serie = 3;
+
+        for (int i = 1; i <= pTermino; i++) {
             System.out.print(Serie + " ");
-            Serie=Serie+5;
+            Serie = Serie + 5;
         }
 
         System.out.print("\n");
     }
 
-    public void showSerieWhile(int pTermino){
+    public void PoliCodeCraftersWhileS8(int pTermino) {
 
-        int Serie=3;
-        int i=1;
+        int Serie = 3;
+        int i = 1;
 
         while (i <= pTermino) {
-           System.out.print(Serie + " ");
-           Serie = Serie + 5;
-           i++;
-        }
-
-        System.out.print("\n");
-    }
-
-    public void showSerieDoWhile(int pTermino){
-        
-        int Serie=3;
-        int i=1;
-        do{
-            System.out.println(Serie + " ");
+            System.out.print(Serie + " ");
             Serie = Serie + 5;
             i++;
         }
-        while(i <= pTermino);
 
+        System.out.print("\n");
     }
-    
+
+    public void PoliCodeCraftersDoWhileS8(int pTermino) {
+
+        int Serie = 3;
+        int i = 1;
+        do {
+            System.out.print(Serie + " ");
+            Serie = Serie + 5;
+            i++;
+        } while (i <= pTermino);
+
+        System.out.println("\n");
+    }
+
 }
