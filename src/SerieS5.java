@@ -1,33 +1,35 @@
 public class SerieS5 {
     /*
-     * <b>showSerie </b> muestra la serie 2 3 5 7 11 13 17 19 23 29 31
+     * <b>PoliCodeCrafters </S5b> muestra la serie 2 3 5 7 11 13 17 19 23 29 31
      * 
-     * @param NroTerminos : Numero de terminos para la serie
+     * @param nroTerminos : Numero de terminos para la serie
      */
-    public void showSerieFor(int NroTerminos) {
+    public void PoliCodeCraftersForS5(int nroTerminos) {
         int num1 = 2;
-        for (int i = 0; i < NroTerminos;) {
+        for (int i = 0; i < nroTerminos;) {
             if (esPrimo(num1)) {
                 System.out.print(num1 + " ");
                 i++;
             }
             num1++;
         }
+        System.out.println();
     }
 
-    public void showSerieWhile(int NroTerminos) {
+    public void PoliCodeCraftersWhileS5(int nroTerminos) {
         int num1 = 2;
         int i = 0;
-        while (i < NroTerminos) {
+        while (i < nroTerminos) {
             if (esPrimo(num1)) {
                 System.out.print(num1 + " ");
                 i++;
             }
             num1++;
         }
+        System.out.println();
     }
 
-    public void showSerieDoWhile(int NroTerminos) {
+    public void PoliCodeCraftersDoWhileS5(int nroTerminos) {
         int num1 = 2;
         int i = 0;
         do {
@@ -36,7 +38,8 @@ public class SerieS5 {
                 i++;
             }
             num1++;
-        } while (i < NroTerminos);
+        } while (i < nroTerminos);
+        System.out.println();
     }
 
     static boolean esPrimo(int num2) {
