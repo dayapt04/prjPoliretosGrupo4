@@ -35,6 +35,5 @@ public class SerieS6 {
             // System.out.print(resul+" ");
             i++;
         } while (i <= nroTerminos);
-        System.out.println();
     }
 }

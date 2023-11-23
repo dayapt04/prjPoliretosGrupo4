@@ -39,8 +39,7 @@ public class SerieS8 {
             Serie = Serie + 5;
             i++;
         } while (i <= pTermino);
-
-        System.out.println("\n");
+        System.out.println();
     }
 
 }
