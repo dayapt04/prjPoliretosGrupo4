@@ -40,6 +40,5 @@ public class SerieS7 {
             i++;
         } while (i <= pTermino);
 
-        System.out.println("\n");
     }
 }
