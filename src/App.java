@@ -77,6 +77,12 @@ public class App {
                 oSerieS10.PoliCodeCraftersDoWhileS10(nroTerminos);
                 System.out.println();
 
+                SerieS12 oSerieS12 = new SerieS12();
+                oSerieS12.PoliCodeCraftersForS12(nroTerminos);
+                oSerieS12.PoliCodeCraftersWhileS12(nroTerminos);
+                oSerieS12.PoliCodeCraftersDoWhileS12(nroTerminos);
+                System.out.println();
+
                 sc.close();
         }
 }
