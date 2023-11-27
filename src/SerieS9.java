@@ -1,5 +1,9 @@
 public class SerieS9 {
-
+    /*
+     * <b>PoliCodeCraftersS9 </b> muestra la serie 2, 4, 8, 16, 32, 64, 128, 256,...
+     * 
+     * @param nroTerminos : Numero de terminos para la serie
+     */
     public void PoliCodeCraftersForS9(int nroTerminos) {
         int num = 2;
         for (int i = 0; i < nroTerminos; i++) {

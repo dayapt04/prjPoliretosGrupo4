@@ -1,6 +1,6 @@
 public class SerieS6 {
     /*
-     * <b>showSerie </b> muestra la serie 1 4 9 16 25 36 49 64
+     * <b>PoliCodeCraftersS6 </b> muestra la serie 1 4 9 16 25 36 49 64...
      * 
      * @param nroTerminos : Numero de terminos para la serie
      */

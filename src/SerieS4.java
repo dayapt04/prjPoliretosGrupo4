@@ -1,18 +1,18 @@
 public class SerieS4 {
-    // S4: 0/2 1/4 1/6 2/8 3/10 5/12 8/14 13/16 ...
-    public int nroTerminos;
+    /*
+     * <b>PoliCodeCraftersS4 </b> muestra la serie 0/2 1/4 1/6 2/8 3/10 5/12 8/14
+     * 13/16...
+     * 
+     * @param nroTerminos : Numero de terminos para la serie
+     */
 
-    public SerieS4(int nroTerminos) {
-        this.nroTerminos = nroTerminos;
-    }
-
-    public void PoliCodeCraftersForS4() {
+    public void PoliCodeCraftersForS4(int nroTerminos) {
         int i = 0;
         int denominador = 2;
         int numerador = 0;
         int suma = 1;
 
-        for (; i < this.nroTerminos; i++) {
+        for (; i < nroTerminos; i++) {
             System.out.print(numerador + "/" + denominador + " ");
             int tempNumerador = numerador + suma;
             numerador = suma;
@@ -23,12 +23,12 @@ public class SerieS4 {
         System.out.println();
     }
 
-    public void PoliCodeCraftersWhileS4() {
+    public void PoliCodeCraftersWhileS4(int nroTerminos) {
         int i = 0;
         int denominador = 2;
         int numerador = 0;
         int suma = 1;
-        while (i < this.nroTerminos) {
+        while (i < nroTerminos) {
             System.out.print(numerador + "/" + denominador + " ");
             int tempNumerador = numerador + suma;
             numerador = suma;
@@ -40,7 +40,7 @@ public class SerieS4 {
         System.out.println();
     }
 
-    public void PoliCodeCraftersDoWhileS4() {
+    public void PoliCodeCraftersDoWhileS4(int nroTerminos) {
         int i = 0;
         int denominador = 2;
         int numerador = 0;
@@ -52,7 +52,7 @@ public class SerieS4 {
             suma = tempNumerador;
             denominador += 2;
             i++;
-        } while (i < this.nroTerminos);
+        } while (i < nroTerminos);
         System.out.println();
     }
 }

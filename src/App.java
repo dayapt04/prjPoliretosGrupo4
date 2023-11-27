@@ -24,18 +24,18 @@ public class App {
                 oSerieS2.PoliCodeCraftersDoWhileS2(nroTerminos);
                 System.out.println();
 
-                SerieS3 oSerie3 = new SerieS3(nroTerminos);
+                SerieS3 oSerie3 = new SerieS3();
                 System.out.println("Serie 3: ");
-                oSerie3.PoliCodeCraftersForS3();
-                oSerie3.PoliCodeCraftersWhileS3();
-                oSerie3.PoliCodeCraftersDoWhileS3();
+                oSerie3.PoliCodeCraftersForS3(nroTerminos);
+                oSerie3.PoliCodeCraftersWhileS3(nroTerminos);
+                oSerie3.PoliCodeCraftersDoWhileS3(nroTerminos);
                 System.out.println();
 
                 System.out.println("Serie 4: ");
-                SerieS4 oSerie4 = new SerieS4(nroTerminos);
-                oSerie4.PoliCodeCraftersForS4();
-                oSerie4.PoliCodeCraftersWhileS4();
-                oSerie4.PoliCodeCraftersDoWhileS4();
+                SerieS4 oSerie4 = new SerieS4();
+                oSerie4.PoliCodeCraftersForS4(nroTerminos);
+                oSerie4.PoliCodeCraftersWhileS4(nroTerminos);
+                oSerie4.PoliCodeCraftersDoWhileS4(nroTerminos);
                 System.out.println();
 
                 System.out.println("Serie 5: ");

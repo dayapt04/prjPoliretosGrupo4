@@ -1,7 +1,7 @@
 public class SerieS2 {
   public void PoliCodeCraftersForS2(int nroTerminos) {
     /*
-     * <b PoliCodeCrafters </b> muestra la serie de Fibonacci 0 1 1 2 3 5 8 13
+     * <b PoliCodeCraftersS2 </b> muestra la serie de Fibonacci 1 0 3 0 5 0 7 0 9...
      * 
      * @param m : Numero de terminos para la serie
      */

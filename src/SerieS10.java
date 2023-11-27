@@ -1,5 +1,10 @@
 public class SerieS10 {
-
+    /*
+     * <b>PoliCodeCraftersS10 </b> muestra la serie 3, 9, 27, 81, 243, 729, 2187,
+     * ...
+     * 
+     * @param nroTerminos : Numero de terminos para la serie
+     */
     public SerieS10() {
         System.out.println("Serie 10: ");
     }

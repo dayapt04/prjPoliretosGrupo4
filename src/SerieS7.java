@@ -1,14 +1,18 @@
 public class SerieS7 {
-
+    /*
+     * <b>PoliCodeCraftersS7 </b> muestra la serie 1 4 7 10 13 16 19 22 25...
+     * 
+     * @param nroTerminos : Numero de terminos para la serie
+     */
     public SerieS7() {
         System.out.println("\nSerie 7: ");
     }
 
-    public void PoliCodeCraftersForS7(int pTermino) {
+    public void PoliCodeCraftersForS7(int nroTerminos) {
 
         int Serie = 1;
 
-        for (int i = 1; i <= pTermino; i++) {
+        for (int i = 1; i <= nroTerminos; i++) {
             System.out.print(Serie + " ");
             Serie = Serie + 3;
         }
@@ -16,12 +20,12 @@ public class SerieS7 {
         System.out.print("\n");
     }
 
-    public void PoliCodeCraftersWhileS7(int pTermino) {
+    public void PoliCodeCraftersWhileS7(int nroTerminos) {
 
         int Serie = 1;
         int i = 1;
 
-        while (i <= pTermino) {
+        while (i <= nroTerminos) {
             System.out.print(Serie + " ");
             Serie = Serie + 3;
             i++;
@@ -30,7 +34,7 @@ public class SerieS7 {
         System.out.print("\n");
     }
 
-    public void PoliCodeCraftersDoWhileS7(int pTermino) {
+    public void PoliCodeCraftersDoWhileS7(int nroTerminos) {
 
         int Serie = 1;
         int i = 1;
@@ -38,7 +42,7 @@ public class SerieS7 {
             System.out.print(Serie + " ");
             Serie = Serie + 3;
             i++;
-        } while (i <= pTermino);
+        } while (i <= nroTerminos);
 
     }
 }

@@ -1,5 +1,9 @@
 public class SerieS8 {
-
+    /*
+     * <b>PoliCodeCraftersS8 </b> muestra la serie 3, 8, 13, 18, 23, 28, 33, 38...
+     * 
+     * @param nroTerminos : Numero de terminos para la serie
+     */
     public SerieS8() {
         System.out.println("\nSerie 8: ");
     }

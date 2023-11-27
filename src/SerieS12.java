@@ -1,5 +1,9 @@
 public class SerieS12 {
-
+    /*
+     * <b>PoliCodeCraftersS12 </b> muestra la serie 2 6 12 20 30 42 56 72 ...
+     * 
+     * @param nroTerminos : Numero de terminos para la serie
+     */
     public void PoliCodeCraftersForS12(int nroTerminos) {
         int[] resultado = new int[nroTerminos];
         resultado[0] = 2; // El primer término es siempre 2

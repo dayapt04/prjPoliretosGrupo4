@@ -1,18 +1,18 @@
 public class SerieS3 {
-    // S3: 0/1 1/3 1/5 2/7 3/9 5/11 8/13 13/15 ...
-    public int nroTerminos;
+    /*
+     * <b>PoliCodeCraftersS3 </b> muestra la serie 0/1 1/3 1/5 2/7 3/9 5/11 8/13
+     * 13/15...
+     * 
+     * @param nroTerminos : Numero de terminos para la serie
+     */
 
-    public SerieS3(int nroTerminos) {
-        this.nroTerminos = nroTerminos;
-    }
-
-    public void PoliCodeCraftersForS3() {
+    public void PoliCodeCraftersForS3(int nroTerminos) {
         int numerador = 0;
         int suma = 1;
         int denominador = 1;
         int i = 0;
 
-        for (; i < this.nroTerminos; i++) {
+        for (; i < nroTerminos; i++) {
             System.out.print(numerador + "/" + denominador + " ");
             int tempNumerador = numerador + suma;
             numerador = suma;
@@ -23,7 +23,7 @@ public class SerieS3 {
         System.out.println();
     }
 
-    public void PoliCodeCraftersWhileS3() {
+    public void PoliCodeCraftersWhileS3(int nroTerminos) {
         int numerador = 0;
         int suma = 1;
         int denominador = 1;
@@ -41,7 +41,7 @@ public class SerieS3 {
         System.out.println();
     }
 
-    public void PoliCodeCraftersDoWhileS3() {
+    public void PoliCodeCraftersDoWhileS3(int nroTerminos) {
         int numerador = 0;
         int suma = 1;
         int denominador = 1;
