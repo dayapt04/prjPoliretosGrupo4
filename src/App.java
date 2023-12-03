@@ -83,11 +83,13 @@ public class App {
                 oSerieS12.PoliCodeCraftersDoWhileS12(nroTerminos);
                 System.out.println();
 
+                System.out.println("Cadena de Caracteres 1: ");
                 System.out.print("Ingrese una palabra: ");
                 String palabraDig = sc.next();
                 CadenasC1C9 oCadenasC1C9 = new CadenasC1C9();
                 oCadenasC1C9.PoliCodeCraftersForC1(palabraDig);
                 System.out.println();
+                System.out.println("Cadena de Caracteres 9: ");
                 System.out.print("Ingrese una frase: ");
                 String fraseDig = sc.next();
                 oCadenasC1C9.PoliCodeCraftersForC9(fraseDig);
