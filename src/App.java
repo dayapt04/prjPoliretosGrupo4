@@ -102,10 +102,12 @@ public class App {
                 
                 //CaracteresS5 oCaracteresS5 = new CaracteresS5();
                 //oCaracteresS5.PoliCodeCraftersS5();
-                
+
                 //CadenasC8 oCadenasC8 = new CadenasC8();
                 //oCadenasC8.PoliCodeCraftersC8();
                 
+               // Figura9_12 oFigura9_12 = new Figura9_12();
+                //oFigura9_12.PoliCodeCraftersFigura9_12();
                 
 
 
