@@ -77,11 +77,43 @@ public class App {
                 oSerieS10.PoliCodeCraftersDoWhileS10(nroTerminos);
                 System.out.println();
 
-                SerieS12 oSerieS12 = new SerieS12();
+                /*SerieS12 oSerieS12 = new SerieS12();
                 oSerieS12.PoliCodeCraftersForS12(nroTerminos);
                 oSerieS12.PoliCodeCraftersWhileS12(nroTerminos);
                 oSerieS12.PoliCodeCraftersDoWhileS12(nroTerminos);
+                System.out.println();*/
+
+                Recursion4 oRecursion4 = new Recursion4();
+                System.out.println("Calcular el resultado de un número elevado a un exponente");
+                System.out.print("Ingrese la base: ");
+                int base = sc.nextInt();
+                System.out.print("Ingrese el exponente: ");
+                int exponente = sc.nextInt();
+                int resultadoR4 = oRecursion4.PoliCodeCraftersR4(base, exponente);
+                System.out.println("Resultado: " + resultadoR4);
                 System.out.println();
+                
+                CaracteresS4S6 oCaracteresS4S6 = new CaracteresS4S6();
+                oCaracteresS4S6.PoliCodeCraftersSC4(nroTerminos);
+                System.out.println();
+                oCaracteresS4S6.PoliCodeCraftersSC6(nroTerminos);
+                System.out.println();
+
+                //CadenasC4 oCadenasC4 = new CadenasC4();
+                //oCadenasC4.PoliCodeCraftersC4();
+
+                Array1 oArray1 = new Array1();
+                oArray1.PoliCodeCraftersA1();
+
+                Figura13_16 oFigura13_16 = new Figura13_16();
+                oFigura13_16.PoliCodeCraftersF13(nroTerminos);
+                oFigura13_16.PoliCodeCraftersF14(nroTerminos);
+                oFigura13_16.PoliCodeCraftersF15(nroTerminos);
+                oFigura13_16.PoliCodeCraftersF16(nroTerminos);
+
+                Loading5_6 ofLoading5_6 = new Loading5_6();
+                ofLoading5_6.PoliCodeCraftersL5();
+                ofLoading5_6.PoliCodeCraftersL6();
 
                 sc.close();
         }
