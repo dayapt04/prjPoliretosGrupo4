@@ -2,18 +2,20 @@ import java.util.Scanner;
 
 public class Array1 {
 
-    public void PoliCodeCraftersA1(){
+    public void PoliCodeCraftersA1(Scanner scanner1){
 
-        Scanner scanner1 = new Scanner(System.in);
-        try{
-            System.out.println();
+        
+       
+          
             String Nombre;
 
-            System.out.print("Ingrese su nombre completo: ");
+            System.out.println();
+            //scanner1.nextLine();
+            System.out.println("Ingrese su nombre completo: ");
             Nombre = scanner1.nextLine();
             String[ ] nombreSeparado = Nombre.split(" ") ;
             
-            System.out.print("Ingrese el porcentaje de cada palabra: ");
+            System.out.println("Ingrese el porcentaje de cada palabra: ");
             String Porcentaje = scanner1.nextLine();
             String[] porcentajeSeparados = Porcentaje.split(" ");
 
@@ -35,8 +37,6 @@ public class Array1 {
                     return;  
                 }  
             }
-
-            String indicadores = "==========";
 
             for (int i = 0; i < cantidadNombres; i++){
                 int longitudNombreActual = nombreSeparado[i].length();
@@ -67,9 +67,7 @@ public class Array1 {
             }
                
 
-            }
-         finally {
-            scanner1.close();
-        }
+            
+
     }
 }

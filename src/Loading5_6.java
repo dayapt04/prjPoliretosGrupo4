@@ -43,9 +43,13 @@ public class Loading5_6 {
             String barra = "                    ";
             if (porcentaje == 100) {
                 barra = "                 <=>";
-            } else {
-                int posicion = (porcentaje / 5)-1;
-                barra = barra.substring(0, posicion) + "<=>" + barra.substring(posicion + 2);
+            }else if(porcentaje <=15)
+            {
+                barra = "<=>                 ";
+            } 
+            else {
+                int posicion = (porcentaje / 5) - 3;
+                barra = barra.substring(0, posicion) + "<=>" + barra.substring(posicion + 3);
             }
             System.out.print("\r" + "[" + barra + "]" + " " + porcentaje + "%");
             Thread.sleep(100);

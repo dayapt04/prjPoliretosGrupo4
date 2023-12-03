@@ -50,20 +50,34 @@ public class Figura13_16 {
 
     public void PoliCodeCraftersF16(int nTermino){
 
-        for (int i = 0; i < nTermino; i++) {  
-            for (int j = 0; j < nTermino; j++) {  
-                if ((i == 0 || i == nTermino - 1) && (j == 0 || j == nTermino - 1) || i == nTermino / 2 && j == nTermino / 2) {  
-                    System.out.print("+ ");  
-                } else if (i == 2 && j == 2) {  
-                    System.out.print("+ ");  
-                } else if (j == 2) {  
-                    System.out.print("+ ");  
-                } else {  
-                    System.out.print("- ");  
-                }  
-            }  
-            System.out.println();  
-        }  
+     
+                int dimension = nTermino;
+                String caracterImprimible = "+"; 
+                // Ciclo para recorrer las filas del cuadrado
+                for (int i = 0; i < dimension; i++) {
+                               // si la fila es impar se imprime + y si es par -
+                    if(i%2==0)
+                    { caracterImprimible = "+"; }
+                    else
+                    { caracterImprimible = "-"; }
+                    // Ciclo para recorrer las columnas del cuadrado
+                    for (int j = 0; j < dimension; j++) {
+                        
+                        // Imprimir el símbolo "+" en las diagonales
+                        if (i == j || i == dimension - 1 - j) {
+                            System.out.print(caracterImprimible);
+                        } 
+                        // Imprimir espacios en blanco en las demás posiciones
+                        else {
+                            System.out.print(" ");
+                        }
+                    }
+                    
+                    // Cambiar de línea después de imprimir una fila
+                    System.out.println();
+     
+        }
+
 
     }
 }

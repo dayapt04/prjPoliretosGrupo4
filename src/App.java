@@ -99,22 +99,26 @@ public class App {
                 oCaracteresS4S6.PoliCodeCraftersSC6(nroTerminos);
                 System.out.println();
 
-                //CadenasC4 oCadenasC4 = new CadenasC4();
-                //oCadenasC4.PoliCodeCraftersC4();
+                CadenasC4 oCadenasC4 = new CadenasC4();
+                oCadenasC4.PoliCodeCraftersC4(sc);
 
                 Array1 oArray1 = new Array1();
-                oArray1.PoliCodeCraftersA1();
+                oArray1.PoliCodeCraftersA1(sc);
 
                 Figura13_16 oFigura13_16 = new Figura13_16();
+                System.out.println("Figura13");
                 oFigura13_16.PoliCodeCraftersF13(nroTerminos);
+                System.out.println("Figura14");
                 oFigura13_16.PoliCodeCraftersF14(nroTerminos);
+                System.out.println("Figura15");
                 oFigura13_16.PoliCodeCraftersF15(nroTerminos);
+                System.out.println("Figura16");
                 oFigura13_16.PoliCodeCraftersF16(nroTerminos);
 
                 Loading5_6 ofLoading5_6 = new Loading5_6();
                 ofLoading5_6.PoliCodeCraftersL5();
                 ofLoading5_6.PoliCodeCraftersL6();
-
                 sc.close();
+              
         }
 }
