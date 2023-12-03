@@ -83,6 +83,57 @@ public class App {
                 oSerieS12.PoliCodeCraftersDoWhileS12(nroTerminos);
                 System.out.println();
 
+                System.out.print("Ingrese una palabra: ");
+                String palabraDig = sc.next();
+                CadenasC1C9 oCadenasC1C9 = new CadenasC1C9();
+                oCadenasC1C9.PoliCodeCraftersForC1(palabraDig);
+                System.out.println();
+                System.out.print("Ingrese una frase: ");
+                String fraseDig = sc.next();
+                oCadenasC1C9.PoliCodeCraftersForC9(fraseDig);
+                System.out.println();
+
+                Array5 oArray5 = new Array5();
+                oArray5.PoliCodeCraftersForA5();
+                System.out.println();
+
+                CaracteresS1S9 oCaracteresS1S9 = new CaracteresS1S9();
+                oCaracteresS1S9.PoliCodeCraftersForS1(nroTerminos);
+                System.out.println();
+                oCaracteresS1S9.PoliCodeCraftersForS9(nroTerminos);
+                System.out.println();
+
+                System.out.println("Recursion 1: ");
+                System.out.print("Ingrese un numero para sacar su factorial: ");
+                int nDigit = sc.nextInt();
+
+                System.out.println();
+                Recursion1 oRecursion1 = new Recursion1();
+                oRecursion1.PoliCodeCraftersR1(nDigit);
+                System.out.println();
+
+                System.out.print("Ingrese un numero para la altura de las piramides y escaleras: ");
+                int altura = sc.nextInt();
+
+                System.out.println();
+                Figura5_8 oFigura5_8 = new Figura5_8();
+                oFigura5_8.PoliCodeCraftersForF5(altura);
+                System.out.println();
+                oFigura5_8.PoliCodeCraftersForF6(altura);
+                System.out.println();
+                oFigura5_8.PoliCodeCraftersForF7(altura);
+                System.out.println();
+                oFigura5_8.PoliCodeCraftersForF8(altura);
+
+                System.out.println();
+                System.out.println("Loading 3: ");
+                System.out.print("Ingrese un caracter: ");
+                String charDig = sc.next();
+                Loading3_4 oLoading3_4 = new Loading3_4();
+                oLoading3_4.PoliCodeCraftersForL3(charDig);
+                System.out.println();
+                oLoading3_4.PoliCodeCraftersForL4();
+
                 sc.close();
         }
 }
