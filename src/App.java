@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class App {
@@ -91,16 +90,18 @@ public class App {
                 System.out.println();
 
                 System.out.println("Cadenas");
-                CadenasC2C7 modificador = new CadenasC2C7();
+                // CadenasC2C7 modificador = new CadenasC2C7();
+                CadenasC2C7 oC2c7 = new CadenasC2C7();
+                oC2c7.PoliCodeCraftersC2C7();
+
                 System.out.println();
 
                 System.out.println("Caracteres");
                 CaracteresS2S8 serie2 = new CaracteresS2S8();
                 serie2.inputNumberOfTerms();
 
-                
                 System.out.println("Figuras");
-                System.out.println("Ingrese el valor de  altura: ");
+                System.out.println("Ingrese el valor de altura: ");
                 int altura = Integer.parseInt(sc.nextLine());
                 System.out.println();
                 Figura1_4 Figura1_4 = new Figura1_4();
@@ -113,18 +114,14 @@ public class App {
                 Figura1_4.PoliCodeCraftersForF4(altura);
                 System.out.println();
 
-                System.out.println("Loandig:");
+                System.out.println("Loading:");
                 Loading7_8 oloading = new Loading7_8();
                 oloading.PoliCodeCraftersForL7("=");
                 System.out.println();
-                System.out.println("Ingrese su nombre:");
-                String nombre2 = sc.nextLine();
-                System.out.println();
-                System.out.println("Ingrese su apellido:");
-                String apellido2 = sc.nextLine();
+
                 System.out.println();
                 Loading7_8 oloading2 = new Loading7_8();
-                oloading2.PoliCodeCraftersForL8(nombre2, apellido2);
+                oloading2.PoliCodeCraftersForL8();
                 System.out.println();
 
                 System.out.println("Recursion");
@@ -132,6 +129,5 @@ public class App {
                 calcular.inputValuesAndCalculate();
 
                 sc.close();
-       }
+        }
 }
-
