@@ -7,33 +7,27 @@ public class Loading9_10 {
 
     public static void animacionDibujo() {
         int posicion = 0;
-        int direccion = 1; // 1 para derecha, -1 para izquierda
-        int limiteDerecho = 20; // Establece el límite derecho de la pantalla
+        int direccion = 1;
+        int limiteDerecho = 20;
         int ciclos = 0;
-        int ciclosMaximos = 6; // Número máximo de ciclos izquierda-derecha
+        int ciclosMaximos = 6;
 
         while (ciclos < ciclosMaximos) {
-            // Imprime el dibujo en la posición actual
             imprimirDibujo(posicion);
 
-            // Introduce un retraso de 100 milisegundos
             try {
                 Thread.sleep(100);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
 
-            // Borra el dibujo actual para la próxima impresión
             borrarDibujo(posicion);
 
-            // Actualiza la posición para el próximo ciclo
             posicion += direccion;
 
-            // Verifica si ha alcanzado los límites
             if (posicion >= limiteDerecho || posicion <= 0) {
-                // Cambia la dirección al llegar a los límites
                 direccion *= -1;
-                ciclos++; // Incrementa el contador de ciclos
+                ciclos++;
             }
         }
     }
@@ -45,7 +39,7 @@ public class Loading9_10 {
             double porcentaje = ((double) i / totalLetras) * 100;
             System.out.print("\r" + nombre.substring(0, i) + " " + String.format("%.2f", porcentaje) + "% completado");
             try {
-                Thread.sleep(500); // Añadir un pequeño retraso para una mejor visualización
+                Thread.sleep(500);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -55,7 +49,6 @@ public class Loading9_10 {
     }
 
     public static void imprimirDibujo(int posicion) {
-        // Imprime el dibujo en la posición actual
         for (int i = 0; i < posicion; i++) {
             System.out.print(" ");
         }
@@ -71,7 +64,6 @@ public class Loading9_10 {
     }
 
     public static void borrarDibujo(int posicion) {
-        // Borra el dibujo actual (imprimiendo líneas en blanco)
         for (int i = 0; i < 10; i++) {
             System.out.println();
         }

@@ -2,11 +2,12 @@ import java.util.Scanner;
 
 public class CadenasC5C6 {
 
+    Scanner scanner = new Scanner(System.in);
+
     public void PoliCodeCraftersC5C6() {
-        Scanner scanner = new Scanner(System.in);
 
         System.out.println("Ingrese una frase:");
-        String input = scanner.nextLine();
+        String input = scanner.next();
 
         String resultadoVocales = invertirConVocalesMayusculas(input);
         String resultadoLetras = invertirConLetrasMayusculasExceptoVocales(input);
@@ -14,7 +15,6 @@ public class CadenasC5C6 {
         System.out.println("Frase invertida con vocales en mayúsculas: " + resultadoVocales);
         System.out.println("Frase invertida con letras en mayúsculas excepto vocales: " + resultadoLetras);
 
-        scanner.close();
     }
 
     public static String invertirConVocalesMayusculas(String frase) {

@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 public class Recursion2 {
+    Scanner scanner = new Scanner(System.in);
 
     public void PoliCodeCraftersRecursion2() {
-        Scanner scanner = new Scanner(System.in);
 
         System.out.print("Ingrese el primer número (a): ");
         int a = scanner.nextInt();
@@ -14,7 +14,6 @@ public class Recursion2 {
         int resultado = sumaRecursiva(a, b);
         System.out.println("La suma de " + a + " y " + b + " es: " + resultado);
 
-        scanner.close();
     }
 
     public static int sumaRecursiva(int a, int b) {
