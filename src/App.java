@@ -9,6 +9,7 @@ public class App {
                 Scanner sc = new Scanner(System.in);
                 System.out.print("Ingrese el numero de términos: ");
                 int nroTerminos = sc.nextInt();
+                sc.nextLine();
 
                 System.out.println("\nSerie 1: ");
                 SerieS1 oSerieS1 = new SerieS1();
@@ -83,6 +84,50 @@ public class App {
                 oSerieS12.PoliCodeCraftersDoWhileS12(nroTerminos);
                 System.out.println();
 
+                System.out.println("Array 4");
+                Array4 matriz = new Array4();
+                matriz.PoliCodeCraftersA4();
+                System.out.println();
+
+                System.out.println("Cadenas");
+                // CadenasC2C7 modificador = new CadenasC2C7();
+                CadenasC2C7 oC2c7 = new CadenasC2C7();
+                oC2c7.PoliCodeCraftersC2C7();
+
+                System.out.println();
+
+                System.out.println("Caracteres");
+                CaracteresS2S8 serie2 = new CaracteresS2S8();
+                serie2.inputNumberOfTerms();
+
+                System.out.println("Figuras");
+                System.out.println("Ingrese el valor de altura: ");
+                int altura = Integer.parseInt(sc.nextLine());
+                System.out.println();
+                Figura1_4 Figura1_4 = new Figura1_4();
+                Figura1_4.PoliCodeCraftersForF1(altura);
+                System.out.println();
+                Figura1_4.PoliCodeCraftersForF2(altura);
+                System.out.println();
+                Figura1_4.PoliCodeCraftersForF3(altura);
+                System.out.println();
+                Figura1_4.PoliCodeCraftersForF4(altura);
+                System.out.println();
+
+                System.out.println("Loading:");
+                Loading7_8 oloading = new Loading7_8();
+                oloading.PoliCodeCraftersForL7("=");
+                System.out.println();
+
+                System.out.println();
+                Loading7_8 oloading2 = new Loading7_8();
+                oloading2.PoliCodeCraftersForL8();
+                System.out.println();
+
+                System.out.println("Recursion");
+                Recursion3 calcular = new Recursion3();
+                calcular.inputValuesAndCalculate();
+
                 System.out.println("Cadena de Caracteres 1: ");
                 System.out.print("Ingrese una palabra: ");
                 String palabraDig = sc.next();
@@ -115,7 +160,7 @@ public class App {
                 System.out.println();
 
                 System.out.print("Ingrese un numero para la altura de las piramides y escaleras: ");
-                int altura = sc.nextInt();
+                altura = sc.nextInt();
 
                 System.out.println();
                 Figura5_8 oFigura5_8 = new Figura5_8();
