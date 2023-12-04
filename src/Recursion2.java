@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Recursion2 {
     Scanner scanner = new Scanner(System.in);
 
-    public void PoliCodeCraftersRecursion2() {
+    public void PoliCodeCraftersR2() {
 
         System.out.print("Ingrese el primer número (a): ");
         int a = scanner.nextInt();

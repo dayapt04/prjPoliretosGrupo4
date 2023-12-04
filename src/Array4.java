@@ -12,7 +12,7 @@ public class Array4 {
   Scanner sc = new Scanner(System.in);
   public char[][] matriz;
 
-  public Array4() {
+  public void ArrayNombre4() {
     System.out.println("Ingrese su nombre:");
     String nombre = sc.nextLine();
     System.out.println("Ingrese su apellido:");

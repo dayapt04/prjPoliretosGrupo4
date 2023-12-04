@@ -10,7 +10,7 @@ public class Recursion3 {
 
     Scanner sc = new Scanner(System.in);
 
-    public void inputValuesAndCalculate() {
+    public void PoliCodeCraftersR3() {
         System.out.println("Ingrese el valor de a: ");
         int a = Integer.parseInt(sc.nextLine());
         System.out.println("Ingrese el valor de b: ");

@@ -1,11 +1,11 @@
 
-
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Scanner;
 import java.util.Set;
 
 public class CadenasC8 {
+    Scanner scanner = new Scanner(System.in);
 
     public void PoliCodeCraftersC8() {
         Set<String> conjunto = new HashSet<>();
@@ -18,8 +18,6 @@ public class CadenasC8 {
         conjunto.add("apañes");
         conjunto.add("Enrique");
         conjunto.add("quieren");
-
-        Scanner scanner = new Scanner(System.in);
 
         System.out.println("Bienvenido al juego de Anagramas!");
 
@@ -44,7 +42,6 @@ public class CadenasC8 {
 
         System.out.println("Fin del juego.");
 
-        scanner.close();
     }
 
     // Método para verificar si dos palabras son anagramas

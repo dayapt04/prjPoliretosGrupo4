@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 public class Figura9_12 {
 
@@ -60,7 +59,7 @@ public class Figura9_12 {
     }
 
     public void imprimirPiramideConPeldanos(int tamano) {
-        System.out.println("Pirámide con Peldaños:");
+        System.out.println("Figura 9:");
         for (int i = 1; i <= tamano; i++) {
             // Imprime espacios en blanco
             for (int j = tamano - i; j > 0; j--) {
@@ -81,20 +80,14 @@ public class Figura9_12 {
         }
         System.out.println();
     }
-   
 
-    public void PoliCodeCraftersFigura9_12() {
-        Scanner scanner = new Scanner(System.in);
+    public void PoliCodeCraftersFigura9_12(int tamano) {
         Figura9_12 figurasCombinadas = new Figura9_12();
 
-        System.out.print("Ingrese el tamaño para todas las figuras: ");
-        int tamano = scanner.nextInt();
-
+        figurasCombinadas.imprimirPiramideConPeldanos(tamano);
         figurasCombinadas.imprimirFigura9_12(tamano);
         figurasCombinadas.imprimirFigura13_16(tamano);
         figurasCombinadas.imprimirNumerosDecrecientes(tamano);
-        figurasCombinadas.imprimirPiramideConPeldanos(tamano);
 
-        scanner.close();
     }
 }

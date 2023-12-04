@@ -1,54 +1,53 @@
 /*  Copyright (C) 2K23, patmic_trainer
- *  pat_mic@hotmail.com
- *  Version 2.0
+
+* <pat_mic@hotmail.com>
+* Version 2.0
  */
 
 # patmic_POLIRETOS
 
 Es hora de saber hasta donde puedes llegar, para lo cual debes cumplir con:
 
-- Al iniciar el programa se debe presentar nombre del grupo
-- Al iniciar el programa se debe presentar los integrantes del grupo:  apellido.nombre
-- Solicitar el numero de términos/niveles/palabra a generar y pasarlo como parámetro
-- Usar for, doWhile, while para la realizacion de cada serie
-- El nombre de cada método debe ser su NombreGrupo
-- La solucion debe estar bajo el contexto Orientado a Objetos O.O.
-
+* Al iniciar el programa se debe presentar nombre del grupo
+* Al iniciar el programa se debe presentar los integrantes del grupo:  apellido.nombre
+* Solicitar el numero de términos/niveles/palabra a generar y pasarlo como parámetro
+* Usar for, doWhile, while para la realizacion de cada serie
+* El nombre de cada método debe ser su NombreGrupo
+* La solucion debe estar bajo el contexto Orientado a Objetos O.O.
 
 >> Series numericas:
 
-	S1:  0 1 1 2 3 5 8 13 ...      
-	
+ S1:  0 1 1 2 3 5 8 13 ...
+
     S2:  1 0 3 0 5 0 7 0 9 ...
-	
+ 
     S3:  0/1  1/3  1/5  2/7  3/9   5/11  8/13  13/15 ...
-	
+ 
     S4:  0/2  1/4  1/6  2/8  3/10  5/12  8/14  13/16 ...
-	
-    S5:  2	 3	 5 	 7	 11	 13	 17	 19	 23	 29	 31	...
-	
-	S6:  1  4   9   16  25  36  49  64 ....
+ 
+    S5:  2  3  5   7  11  13  17  19  23  29  31 ...
+
+ S6:  1  4   9   16  25  36  49  64 ....
 
     S7:  1  4  7  10  13  16  19  22  25  ...
-	
+ 
     S8:  3, 8, 13, 18, 23, 28, 33, 38, ...
-	
+ 
     S9:  2, 4, 8, 16, 32, 64, 128, 256, ...
-	
+ 
     S10: 3, 9, 27, 81, 243, 729, 2187, ...
 
     S12: 2  6   12  20  30  42  56  72  ...
 
+>> Series de caracteres:
 
->> Series de caracteres: 
-
-   	S1:  + - + - + - + ...      
+    S1:  + - + - + - + ...      
 
     S2:  + + ++ +++ +++++ ++++++++ +++++++++++++ ...
 
-    S3:  ++	 +++ +++++ +++++++ +++++++++++ +++++++++++++ ...
+    S3:  ++  +++ +++++ +++++++ +++++++++++ +++++++++++++ ...
 
-	S4:  +  -  *  /  +  -  *  / +  -  *  /  ...
+    S4:  +  -  *  /  +  -  *  / +  -  *  /  ...
 
     S5:  \  |  /    -   |   \  |  /    -   |    \  |  /    -   |  ....
 
@@ -61,7 +60,6 @@ Es hora de saber hasta donde puedes llegar, para lo cual debes cumplir con:
     S8:  a  bbb  ccccc  ddddddd eeeeeeeee...
 
     S9:  a  b  c  dd  eee  fffff  gggggggg ...    
-
 
 >> Figuras: se debe pedir tamaño/niveles
 
@@ -88,29 +86,29 @@ Es hora de saber hasta donde puedes llegar, para lo cual debes cumplir con:
                 * * *       
               * * * *     
             * * * * *
-    
-	F5:	
-		 *********
-		  *******
-		   *****
-		    ***
-		     *
 
-	F6:
-		     *
-		    ***
-		   *****
-		  *******
-		 *********
-		 ...
+ F5:
+   *********
+    *******
+     *****
+      ***
+       *
 
-	F7: 
+ F6:
+       *
+      ***
+     *****
+    *******
+   *********
+   ...
+
+ F7:
             ___
                 |___
                     |___
                         |___
                             |___
-    
+
     F8:
                             ___
                         ___|
@@ -118,14 +116,14 @@ Es hora de saber hasta donde puedes llegar, para lo cual debes cumplir con:
                 ___|
             ___|
 
-	F9:
-                            ___   
+ F9:
+                            ___
                         ___|   |___
-                    ___|	   	   |___
-                ___|		   		   |___
-            ___|			   			   |___
+                    ___|           |___
+                ___|                   |___
+            ___|                           |___
 
-	F10:
+ F10:
             _+_
                 |_-_
                     |_+_
@@ -139,8 +137,8 @@ Es hora de saber hasta donde puedes llegar, para lo cual debes cumplir con:
                     | _ _ _
                            | _ _ _ _
                                     | _ _ _ _ _
-                   
-	F12:
+
+ F12:
             ...
             123456789
             12345678
@@ -152,7 +150,7 @@ Es hora de saber hasta donde puedes llegar, para lo cual debes cumplir con:
             12
             1
 
-	F13:
+ F13:
             1
             12
             123
@@ -173,29 +171,29 @@ Es hora de saber hasta donde puedes llegar, para lo cual debes cumplir con:
              1   5   10    10    5   1
             ....
 
-	F15: 
+ F15:
             1
-            1	1
-            1	2	1
+            1 1
+            1 2 1
             1   3   3    1
             1   4   6    4    1
             1   5   10   10   5   1
             ....
-    
+
     F16:
-            +				+
-                -		-
+            +    +
+                -  -
                     +
-                -		-
-            +				+
+                -  -
+            +    +
             ....
 
     F17:
-            1				1
-                0		0
+            1    1
+                0  0
                     1
-                0		0
-            1				1
+                0  0
+            1    1
             ....
 
     F18:
@@ -216,45 +214,44 @@ Es hora de saber hasta donde puedes llegar, para lo cual debes cumplir con:
             +   6   14  16  9  *
             ....
 
-
 >> Cadena de caracteres:
 
-	C01)    Pedir una frase y contador las vocales. 
+ C01)    Pedir una frase y contador las vocales.
             Ejemplo, frase: ballena
                     salida: tiene 3 vocales
 
-	C02)    Pedir una frase y contador las letras.  
+ C02)    Pedir una frase y contador las letras.  
             Ejemplo, frase : ballena
                     salida: tiene 4 letras
 
-	C03)    Pedir una frase y una vocal, eliminar la vocal ingresada de la frase. 
+ C03)    Pedir una frase y una vocal, eliminar la vocal ingresada de la frase.
             Ejemplo, frase: ballena azul  
                     vocal : a
                     salida: b ll n   z l
 
-	C04)    Pedir una frase y una letra, eliminar la letra ingresada de la frase. 
+ C04)    Pedir una frase y una letra, eliminar la letra ingresada de la frase.
             Ejemplo, frase: ballena azul  
                     letra : l
-                    salida: ba  ena azu 
+                    salida: ba  ena azu
 
-	C05)    Pedir una frase y presentarla inverida con las vocales en mayusculas. 
+ C05)    Pedir una frase y presentarla inverida con las vocales en mayusculas.
             Ejemplo, frase: ballena
-                    salida: AnEllAb 
+                    salida: AnEllAb
 
-	C06)    Pedir una frase y presentarla inverida con las letras en mayusculas. 
+ C06)    Pedir una frase y presentarla inverida con las letras en mayusculas.
             Ejemplo, frase: ballena
-                    salida: aNeLLaB 
-	
-	C07)    Pedir una frase y presentarla en mayusculas y sin la J
+                    salida: aNeLLaB
+
+ C07)    Pedir una frase y presentarla en mayusculas y sin la J
             Ejemplo, frase: mujeres
-                    salida: MUERES 
+                    salida: MUERES
 
-	C08)    Anagramas de palabras. 
+ C08)    Anagramas de palabras.
             Se forman cuando se utilizan todas las letras de una palabra pero modificando el orden.
             Mostrar una palabra de un conjunto y solicita que ingrese el Anagramas de esa palabra.
             Si falla a la tercera mostrar la respuesta
                 Ejemplo, palabra : delira
-                         salida  : lidera 
+                         salida  : lidera
             conjunto = {delira, lidera, Ballena: llenaba, Alondra, Ladrona, España, apañes, Enrique, quieren}
 
     C09)   Ingresa una frase y convertir una leta a mayusculas y otra a minisculas
@@ -348,24 +345,24 @@ Es hora de saber hasta donde puedes llegar, para lo cual debes cumplir con:
     L08) Pedir el nombre y apellidos y realizar la carga mostrando letra a letra hasta el 100% 
         [Patricio            ] 50%
 
-	L09) Pedir y mostrar el nombre completo, mostrando solo una letra en la misma linea 0% hasta 100% 
-		Ejemplo: Patricio Paccha
+ L09) Pedir y mostrar el nombre completo, mostrando solo una letra en la misma linea 0% hasta 100%
+  Ejemplo: Patricio Paccha
           t                 15%
-		 	r				20%
-		        o       	50%
-		               a    100%
+    r    20%
+          o        50%
+                 a    100%
 
-	L10) Desplazar la figura a la derecha y regresar
+ L10) Desplazar la figura a la derecha y regresar
            \|||/
-           (> <)       
-        ooO-(_)-Ooo 
+           (> <)
+        ooO-(_)-Ooo
 
 >> Recursion
     R01) crear un metodo recursivo para obtener factorial(n)  
     R02) crear un metodo recursivo para obtener la suma(a,b)  
     R03) crear un metodo recursivo para obtener la multiplicacion(a,b)  
     R04) crear un metodo recursivo para obtener la potencia(a,b)  
-    R05) crear un metodo recursivo para obtener la conteoProgregresivoHasta(n) / imprimir el avance
+    R05) crear un metodo recursivo para obtener la conteoProgresivoHasta(n) / imprimir el avance
     R06) crear un metodo recursivo para obtener la conteoRegresivo(n)  hasta 0 / imprimir el avance
-    
+
     Extra si usa memoria retenida en la recursiones 
