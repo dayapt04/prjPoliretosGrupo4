@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class App {
@@ -9,6 +10,7 @@ public class App {
                 Scanner sc = new Scanner(System.in);
                 System.out.print("Ingrese el numero de términos: ");
                 int nroTerminos = sc.nextInt();
+                sc.nextLine();
 
                 System.out.println("\nSerie 1: ");
                 SerieS1 oSerieS1 = new SerieS1();
@@ -83,6 +85,53 @@ public class App {
                 oSerieS12.PoliCodeCraftersDoWhileS12(nroTerminos);
                 System.out.println();
 
+                System.out.println("Array 4");
+                Array4 matriz = new Array4();
+                matriz.PoliCodeCraftersA4();
+                System.out.println();
+
+                System.out.println("Cadenas");
+                CadenasC2C7 modificador = new CadenasC2C7();
+                System.out.println();
+
+                System.out.println("Caracteres");
+                CaracteresS2S8 serie2 = new CaracteresS2S8();
+                serie2.inputNumberOfTerms();
+
+                
+                System.out.println("Figuras");
+                System.out.println("Ingrese el valor de  altura: ");
+                int altura = Integer.parseInt(sc.nextLine());
+                System.out.println();
+                Figura1_4 Figura1_4 = new Figura1_4();
+                Figura1_4.PoliCodeCraftersForF1(altura);
+                System.out.println();
+                Figura1_4.PoliCodeCraftersForF2(altura);
+                System.out.println();
+                Figura1_4.PoliCodeCraftersForF3(altura);
+                System.out.println();
+                Figura1_4.PoliCodeCraftersForF4(altura);
+                System.out.println();
+
+                System.out.println("Loandig:");
+                Loading7_8 oloading = new Loading7_8();
+                oloading.PoliCodeCraftersForL7("=");
+                System.out.println();
+                System.out.println("Ingrese su nombre:");
+                String nombre2 = sc.nextLine();
+                System.out.println();
+                System.out.println("Ingrese su apellido:");
+                String apellido2 = sc.nextLine();
+                System.out.println();
+                Loading7_8 oloading2 = new Loading7_8();
+                oloading2.PoliCodeCraftersForL8(nombre2, apellido2);
+                System.out.println();
+
+                System.out.println("Recursion");
+                Recursion3 calcular = new Recursion3();
+                calcular.inputValuesAndCalculate();
+
                 sc.close();
-        }
+       }
 }
+
