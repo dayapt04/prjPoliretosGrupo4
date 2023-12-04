@@ -10,7 +10,6 @@ public class App {
                 System.out.print("Ingrese el numero de términos: ");
                 int nroTerminos = sc.nextInt();
                 sc.nextLine();
-
                 System.out.println("\nSerie 1: ");
                 SerieS1 oSerieS1 = new SerieS1();
                 oSerieS1.PoliCodeCraftersForS1(nroTerminos);
@@ -196,8 +195,31 @@ public class App {
                 Loading5_6 ofLoading5_6 = new Loading5_6();
                 ofLoading5_6.PoliCodeCraftersL5();
                 ofLoading5_6.PoliCodeCraftersL6();
+                Array2 oArray2 = new Array2();
+                System.out.print("Ingrese el tamaño de las letras: ");
+                int tamano = sc.nextInt();
+                System.out.print("Ingrese el carácter para formar las letras: ");
+                char caracter = sc.next().charAt(0);
+                oArray2.PoliCodeCraftersForA2(tamano, caracter);
+
+                Recursion2 oRecursion2 = new Recursion2();
+                oRecursion2.PoliCodeCraftersRecursion2();
+
+                CadenasC5C6 oCadenasC5C6 = new CadenasC5C6();
+                oCadenasC5C6.PoliCodeCraftersC5C6();
+
+                Loading9_10 oLoading9_10 = new Loading9_10();
+                oLoading9_10.PoliCodeCraftersloading9_10();
+
+                CaracteresS5 oCaracteresS5 = new CaracteresS5();
+                oCaracteresS5.PoliCodeCraftersS5();
+
+                CadenasC8 oCadenasC8 = new CadenasC8();
+                oCadenasC8.PoliCodeCraftersC8();
+
+                Figura9_12 oFigura9_12 = new Figura9_12();
+                oFigura9_12.PoliCodeCraftersFigura9_12();
 
                 sc.close();
-
         }
 }
