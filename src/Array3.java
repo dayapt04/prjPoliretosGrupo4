@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Array3 {
     /*
      * <b>PoliCodeCraftersA3 </b> Dibuja un plano de coordenadas positivo y grafica
@@ -7,8 +9,15 @@ public class Array3 {
      * @param nroTerminos : Numero de terminos para la serie
      */
 
-    public void PoliCodeCraftersA3(int tam) {
+    Scanner sc = new Scanner(System.in);
+
+    public void PoliCodeCraftersA3() {
         System.out.println("Array 3: ");
+        System.out.print("Ingrese su nombre: ");
+        String nomb = sc.next();
+
+        int tam = nomb.length() * 2;
+
         char plano[][] = new char[tam][tam];
 
         for (int i = 0; i < tam; i++) {
@@ -17,10 +26,8 @@ public class Array3 {
             }
         }
 
-        String nombre = "Dayana";
-
-        for (int x = 0; x <= tam && x < nombre.length(); x++) {
-            char c = nombre.charAt(x);
+        for (int x = 0; x <= tam && x < nomb.length(); x++) {
+            char c = nomb.charAt(x);
             int y = (int) (2 * x);
             if (y < tam) {
                 plano[x][y] = c;
@@ -37,7 +44,7 @@ public class Array3 {
 
         System.out.print("  ");
         for (int i = 0; i < tam; i++) {
-            System.out.print("--");
+            System.out.print("-");
         }
         System.out.println();
 

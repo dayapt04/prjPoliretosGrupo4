@@ -2,7 +2,7 @@
 public class CaracteresS6V2 {
     public void PoliCodeCraftersS6V2(int nroTerminos) {
 
-        System.out.println("Serie de caracteres 6.2: ");
+        System.out.println("Serie de caracteres S6.2: ");
 
         char letra = 'a';
 

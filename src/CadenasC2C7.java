@@ -28,6 +28,7 @@ public class CadenasC2C7 {
   }
 
   public static int PoliCodeCraftersC2(String frase) {
+    System.out.println("Cadena de Caracteres 2: ");
     String soloLetras = frase.replaceAll("[^a-zA-Z]", "");
     String sinVocales = soloLetras.replaceAll("[AEIOUaeiou]", "");
     return sinVocales.length();
@@ -40,6 +41,8 @@ public class CadenasC2C7 {
    * @param frase2: frase Ingresada
    */
   public String PoliCodeCraftersC7(String frase2) {
+    System.out.println("Cadena de Caracteres 7: ");
+
     String fraseMayusculas = frase2.toUpperCase();
     String fraseSinJ = fraseMayusculas.replace("J", "");
     return fraseSinJ;

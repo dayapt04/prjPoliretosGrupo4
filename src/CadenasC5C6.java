@@ -18,6 +18,8 @@ public class CadenasC5C6 {
     }
 
     public static String invertirConVocalesMayusculas(String frase) {
+        System.out.println("Cadena de Caracteres 5: ");
+
         StringBuilder fraseInvertida = new StringBuilder(frase).reverse();
         StringBuilder resultado = new StringBuilder();
 
@@ -33,6 +35,8 @@ public class CadenasC5C6 {
     }
 
     public static String invertirConLetrasMayusculasExceptoVocales(String frase) {
+        System.out.println("Cadena de Caracteres 6: ");
+
         StringBuilder resultado = new StringBuilder();
 
         for (char letra : frase.toCharArray()) {

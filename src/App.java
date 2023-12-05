@@ -125,10 +125,10 @@ public class App {
                                         System.out.println("Caracteres S5: ");
                                         oS5.PoliCodeCraftersS5();
                                         System.out.println("\n");
-                                        oS6v2.PoliCodeCraftersS6V2(nroTerminos);
-                                        System.out.println("\n");
                                         System.out.println("Caracteres S6: ");
                                         oS4s6.PoliCodeCraftersSC6(nroTerminos);
+                                        System.out.println("\n");
+                                        oS6v2.PoliCodeCraftersS6V2(nroTerminos);
                                         System.out.println("\n");
                                         oS3S7.PoliCodeCraftersCaracS7(nroTerminos);
                                         System.out.println();
@@ -182,7 +182,6 @@ public class App {
                                         oC1c9.PoliCodeCraftersForC1(palabraDig);
 
                                         System.out.println();
-                                        System.out.println("Cadena de Caracteres 2 y 7: ");
                                         oC2c7.PoliCodeCraftersC2C7();
                                         System.out.println();
                                         System.out.println("Cadena de Caracteres 3: ");
@@ -191,7 +190,6 @@ public class App {
                                         System.out.println("Cadena de Caracteres 4: ");
                                         oC4.PoliCodeCraftersC4(sc);
                                         System.out.println();
-                                        System.out.println("Cadena de Caracteres 5 y 6: ");
                                         oC5c6.PoliCodeCraftersC5C6();
                                         System.out.println("Cadena de Caracteres 8: ");
                                         oC8.PoliCodeCraftersC8();
@@ -220,15 +218,15 @@ public class App {
                                         int tamano = sc.nextInt();
                                         System.out.print("Ingrese el carácter para formar las letras: ");
                                         char caracter = sc.next().charAt(0);
-                                        System.out.println();
+                                        System.out.println("\n");
                                         oArray2.PoliCodeCraftersForA2(tamano, caracter);
-                                        System.out.println();
+                                        System.out.println("\n");
 
-                                        oArray3.PoliCodeCraftersA3(12);
-                                        System.out.println();
+                                        oArray3.PoliCodeCraftersA3();
+                                        System.out.println("\n");
                                         System.out.println("Array 4: ");
                                         oArray4.ArrayNombre4();
-                                        System.out.println();
+                                        System.out.println("\n");
                                         oArray5.PoliCodeCraftersForA5();
                                         System.out.println();
                                         break;
