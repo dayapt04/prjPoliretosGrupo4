@@ -225,7 +225,7 @@ public class App {
                                         oArray3.PoliCodeCraftersA3();
                                         System.out.println("\n");
                                         System.out.println("Array 4: ");
-                                        oArray4.ArrayNombre4();
+                                        oArray4.PoliCodeCraftersA4();
                                         System.out.println("\n");
                                         oArray5.PoliCodeCraftersForA5();
                                         System.out.println();
