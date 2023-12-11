@@ -189,11 +189,11 @@ Es hora de saber hasta donde puedes llegar, para lo cual debes cumplir con:
             ....
 
     F17:
-            1    1
-                0  0
+            1               1
+                0        0
                     1
-                0  0
-            1    1
+                0        0
+            1              1
             ....
 
     F18:

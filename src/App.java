@@ -292,9 +292,11 @@ public class App {
                                         oRecursion4.PoliCodeCraftersR4();
                                         System.out.println();
                                         System.out.println("Recursión 5: ");
+                                        System.out.println("Conteo progresivo hasta " + nroTerminos + ":");
                                         oRecursion5_6.PoliCodeCraftersR5(0, nroTerminos);
                                         System.out.println();
                                         System.out.println("Recursión 6: ");
+                                        System.out.println("Conteo regresivo desde " + nroTerminos + ":");
                                         oRecursion5_6.PoliCodeCraftersR6(nroTerminos);
                                         System.out.println();
                                         break;

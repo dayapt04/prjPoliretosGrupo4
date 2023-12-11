@@ -25,7 +25,7 @@ public class CaracteresS3S7 {
         if (k <= 1) {
             return false;
         }
-        for (int i = 2; i <= Math.sqrt(k); i++) {
+        for (int i = 2; i < k; i++) {
             if (k % i == 0) {
                 return false;
             }
@@ -43,7 +43,7 @@ public class CaracteresS3S7 {
     public void PoliCodeCraftersCaracS7(int nroTerminos) {
         System.out.println("Caracteres S7: ");
         int num = 0;
-        for (int i = 1; i < nroTerminos; i++) {
+        for (int i = 1; i <= nroTerminos; i++) {
             char letra = (char) ('a' + (i - 1));
             String strLetra = Character.toString(letra);
 
